@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "online Shopping", "online Shopping\online Shopping.csproj", "{59EDC8A5-4206-465F-8D54-933C01842368}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59EDC8A5-4206-465F-8D54-933C01842368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59EDC8A5-4206-465F-8D54-933C01842368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59EDC8A5-4206-465F-8D54-933C01842368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59EDC8A5-4206-465F-8D54-933C01842368}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+D:\programs\asp.net problemsheet 2\online Shopping\online Shopping\bin\online Shopping.dll
+D:\programs\asp.net problemsheet 2\online Shopping\online Shopping\bin\online Shopping.pdb
+D:\programs\asp.net problemsheet 2\online Shopping\online Shopping\obj\Debug\online Shopping.dll
+D:\programs\asp.net problemsheet 2\online Shopping\online Shopping\obj\Debug\online Shopping.pdb
+D:\programs\asp.net problemsheet 2\online Shopping\online Shopping\obj\Debug\online Shopping.csprojResolveAssemblyReference.cache

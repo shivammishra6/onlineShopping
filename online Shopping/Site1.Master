@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="online_Shopping.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 90%;
+        }
+        .style2
+        {
+            width: 30%;
+        }
+        .style3
+        {
+            width: 100%;
+        }
+        .style4
+        {
+            width: 211px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+        <table align="center" class="style1">
+            <tr>
+                <td bgcolor="#CC00CC">
+                    <table class="style3">
+                        <tr>
+                            <td class="style4">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <asp:Image ID="Image1" runat="server" Height="113px" ImageUrl="~/logo.png" 
+                                    style="margin-top: 10px" Width="141px" />
+                            </td>
+                            <td align="center" style="color: #FFFFFF; font-size: 55px; font-style: italic;">
+&nbsp;Shopmart!
+                                <asp:Label ID="Label1" runat="server" Font-Size="15pt" 
+                                    Text="online shopping made easy"></asp:Label>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="#CC00CC" height="40">
+                    <table align="center" class="style2">
+                        <tr>
+                            <td align="center" style="color: #FFFFFF; font-style: italic;">
+                                @Copyright Shopmart - 2024</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        
+    </div>
+    </form>
+</body>
+</html>
